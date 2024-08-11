@@ -3,6 +3,7 @@ The objective of the study is to analyse the flight booking dataset obtained fro
 
 ## Research Questions
 Our study focuses on answering the following key questions:
+
 a) Does the ticket price vary by airline?
 I want to explore if different airlines charge different prices for similar routes.
 
