@@ -20,7 +20,7 @@ e) How does the ticket price differ between Economy and Business classes?
 The study will compare prices between Economy and Business class tickets to understand the pricing structure.
 
 ## Data Collection
-To gather the necessary data, went to the "Ease My Trip" website. The data was collected in two batches: one for Economy class tickets and another for Business class tickets. In total, we extracted 300,261 unique flight booking options over a period of 50 days, from February 11th to March 31st, 2022. 
+This dataset was originally gathered from "Ease My Trip" website. The data was collected in two batches: one for Economy class tickets and another for Business class tickets. In total, we extracted 300,261 unique flight booking options over a period of 50 days, from February 11th to March 31st, 2022. 
 
 The dataset provides detailed information on flight booking options between the top 6 metro cities in India. It consists of 300,261 entries and 11 features, each contributing to the analysis.
 ### Features
