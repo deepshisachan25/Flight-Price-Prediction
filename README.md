@@ -86,6 +86,8 @@ When price of flight was compared against airlines, it showed that Vistara fligh
 Data was prepared before building linear regression model to predict the price of the flight. Categorical variables were changed into numerical using dummies and converting into 0, 1.
 Input variables (Independent variable) are: days_left, class, stops, duration, Airlines. Airlines were converted into binary dummy variables: AirAsia, Air_India, GO_FIRST, Indigo, SpiceJet, Vistara.
 Target Variable (Dependent variable) is Price.
+
+## Linear Regression Model Development
 The data is splitted into Training and Test dataset. Linear regression model was fitted on training dataset and performance of model was tested on Test dataset.
 ![image](https://github.com/user-attachments/assets/6db0e1ff-6c55-4677-92b9-670491921850)
 
