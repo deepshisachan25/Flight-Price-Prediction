@@ -26,10 +26,15 @@ The dataset provides detailed information on flight booking options between the 
 ### Features
 The key features of the cleaned dataset are outlined below:
 •	Airline: This feature stores the name of the airline company. It's a categorical feature with 6 different airlines represented.
+
 •	Flight: This categorical feature contains the flight code information, unique to each plane.
+
 •	Source City: This feature indicates the city from which the flight departs and includes 6 unique metro cities.
+
 •	Departure Time: A derived categorical feature that groups departure times into 6 distinct time intervals.
+
 •	Stops: A categorical feature representing the number of stops a flight makes between the source and destination cities, with 3 possible values.
+
 •	Arrival Time: Similar to the departure time, this feature groups arrival times into 6 different time intervals.
 •	Destination City: This feature represents the city where the flight lands and includes 6 unique metro cities.
 •	Class: A categorical feature that indicates whether the ticket is for Business or Economy class.
