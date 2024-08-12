@@ -89,8 +89,8 @@ Target Variable (Dependent variable) is Price.
 The data is splitted into Training and Test dataset. Linear regression model was fitted on training dataset and performance of model was tested on Test dataset.
 ![image](https://github.com/user-attachments/assets/6db0e1ff-6c55-4677-92b9-670491921850)
 
+### Model gave an accuracy of 90.64% in predicting the price of flight.
 ![image](https://github.com/user-attachments/assets/1e28065f-2a6c-47ef-af09-647de3d967c8)
-Model gave an accuracy of 90.64% in predicting the price of flight.
 
 Then prediction was done on new data:
 ![image](https://github.com/user-attachments/assets/1e418e00-4f6f-4d0c-ba1a-88f6aea24b9a)
