@@ -71,7 +71,18 @@ Price of each airline by class of the flight is shown:
 ![image](https://github.com/user-attachments/assets/9699b36d-c937-44f7-8aa6-295e10e80748)
 Price of the flight with respect to days left in booking the flight shows that earlier the flight is booked from start date prices are cheaper.
 
+## Data Preparation
+Data was prepared before building linear regression model to predict the price of the flight. Categorical variables were changed into numerical using dummies and converting into 0, 1.
+Input variables (Independent variable) are: days_left, class, stops, duration, Airlines. Airlines were converted into binary dummy variables: AirAsia, Air_India, GO_FIRST, Indigo, SpiceJet, Vistara.
+Target Variable (Dependent variable) is Price.
+The data is splitted into Training and Test dataset. Linear regression model was fitted on training dataset and performance of model was tested on Test dataset.
+![image](https://github.com/user-attachments/assets/6db0e1ff-6c55-4677-92b9-670491921850)
 
+![image](https://github.com/user-attachments/assets/1e28065f-2a6c-47ef-af09-647de3d967c8)
+Model gave an accuracy of 90.64% in predicting the price of flight.
+
+Then prediction was done on new data:
+![image](https://github.com/user-attachments/assets/1e418e00-4f6f-4d0c-ba1a-88f6aea24b9a)
 
 
 
