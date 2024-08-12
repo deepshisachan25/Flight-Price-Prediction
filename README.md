@@ -65,13 +65,12 @@ Distribution of Destination cities are shown below:
 ![image](https://github.com/user-attachments/assets/44e40e02-8649-406c-ad81-9853b6f98918)
 This plot shows that most of the flight starts from Delhi and Mumbai.
 
+
 Price of each airline by class of the flight is shown below:
 ![image](https://github.com/user-attachments/assets/f01abb35-0bac-4247-be66-8ef8868d854e)
 
 ![image](https://github.com/user-attachments/assets/9699b36d-c937-44f7-8aa6-295e10e80748)
 Price of the flight with respect to days left in booking the flight shows that earlier the flight is booked from start date prices are cheaper.
-![image](https://github.com/user-attachments/assets/2291f770-eec8-4c52-8517-42408d2e0b67)
-
 
 
 
