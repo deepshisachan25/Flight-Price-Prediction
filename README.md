@@ -68,8 +68,19 @@ This plot shows that most of the flight starts from Delhi and Mumbai.
 Price of each airline by class of the flight is shown:
 ![image](https://github.com/user-attachments/assets/f01abb35-0bac-4247-be66-8ef8868d854e)
 
+## Data Analysis
+When price of flight was compared against number of stops flight takes, it showed that 1 and 2 or more stops flight prices were high which is because of number of records in the dataset with 1 or 2 stop is more.
+![image](https://github.com/user-attachments/assets/aa626e49-1fb7-4124-879d-20f448a0c95c)
+
 ![image](https://github.com/user-attachments/assets/9699b36d-c937-44f7-8aa6-295e10e80748)
 Price of the flight with respect to days left in booking the flight shows that earlier the flight is booked from start date prices are cheaper.
+
+
+When price of flight was compared against airlines, it showed that Vistara flight prices were high compared to other airlines. 
+![image](https://github.com/user-attachments/assets/0f67f773-a9c1-43d7-b007-6331889e826b)
+
+![image](https://github.com/user-attachments/assets/649c5090-0e89-423a-898d-99830f42cc83)
+
 
 ## Data Preparation
 Data was prepared before building linear regression model to predict the price of the flight. Categorical variables were changed into numerical using dummies and converting into 0, 1.
