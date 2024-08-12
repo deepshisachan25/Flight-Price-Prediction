@@ -36,9 +36,44 @@ The key features of the cleaned dataset are outlined below:
 •	Stops: A categorical feature representing the number of stops a flight makes between the source and destination cities, with 3 possible values.
 
 •	Arrival Time: Similar to the departure time, this feature groups arrival times into 6 different time intervals.
+
 •	Destination City: This feature represents the city where the flight lands and includes 6 unique metro cities.
+
 •	Class: A categorical feature that indicates whether the ticket is for Business or Economy class.
+
 •	Duration: A continuous feature showing the total travel time between cities, measured in hours.
+
 •	Days Left: This feature is derived by subtracting the booking date from the travel date, indicating how many days are left until the flight.
+
 •	Price: The target variable of our study, representing the cost of the flight ticket.
+
+## Exploratory Data Analysis
+Exploratory data analysis is the process of exploration of data using tools like visualization and statistics to understand your data better, test statistical hypothesis, identify patterns, look for outliers and find opportunities for feature engineering. These findings can then be further used for explanatory analysis where the data is presented to the concerned audience to showcase our findings
+Findings from Data Exploration:
+There are total 3,00,153 records and 12 columns.
+There are no duplicates and null values present in the given dataset. Each record is an unique flight plan of its own without the key as well, maybe flight codes are making them unqiue. 
+Statistical summary was recorded for each numerical variables:
+![image](https://github.com/user-attachments/assets/dd854fab-1be8-40b5-9bcc-ea430800ff76)
+
+Below plot shows there are more records of Vistara airline flight.
+![image](https://github.com/user-attachments/assets/610457f0-9b20-4958-9e86-4b05336e9122)
+![image](https://github.com/user-attachments/assets/51b1c5d0-9456-4c06-952b-15d63a6cf8ef)
+Most of the flight in this dataset takes 1 stop to reach their destination.
+Distribution of Destination cities are shown below:
+![image](https://github.com/user-attachments/assets/69fd61c5-d668-4aa4-a95f-6a29a53214ea)
+
+![image](https://github.com/user-attachments/assets/44e40e02-8649-406c-ad81-9853b6f98918)
+This plot shows that most of the flight starts from Delhi and Mumbai.
+
+Price of each airline by class of the flight is shown below:
+![image](https://github.com/user-attachments/assets/f01abb35-0bac-4247-be66-8ef8868d854e)
+
+![image](https://github.com/user-attachments/assets/9699b36d-c937-44f7-8aa6-295e10e80748)
+Price of the flight with respect to days left in booking the flight shows that earlier the flight is booked from start date prices are cheaper.
+![image](https://github.com/user-attachments/assets/2291f770-eec8-4c52-8517-42408d2e0b67)
+
+
+
+
+
 
